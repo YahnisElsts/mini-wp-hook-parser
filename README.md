@@ -43,6 +43,11 @@ I also tried [WP Hooks Generator](https://github.com/wp-hooks/generator), but it
 
 In the end, it was easier to just write my own, stripped-down version of WP Parser.
 
+## Known Issues
+
+* Namespaces: Name resolution will not work because the parser makes no attempt to detect the namespace of the file it's parsing. This should be fine for now as most of WordPress core is in the global namespace, but it may become an issue in the future.
+* PHPDoc: Nested tags in `@param` descriptions will not be parsed and will be treated as regular text instead.   
+
 ## Credits
 
 This project was heavily inspired by [WP Parser](https://github.com/WordPress/phpdoc-parser) and reuses some of its code. 
