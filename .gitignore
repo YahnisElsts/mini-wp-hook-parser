@@ -1,0 +1,5 @@
+# The entire IDEA/PhpStorm directory
+/.idea/
+
+# Composer's vendor directory
+/vendor/

@@ -1,0 +1,29 @@
+{
+	"name": "yahnis-elsts/mini-wp-hook-parser",
+	"description": "Parses WordPress hook documentation from WordPress source code",
+	"type": "library",
+	"license": "GPL-2.0-or-later",
+	"require": {
+		"php": ">=8.0",
+		"erusev/parsedown": "^1.7",
+		"nikic/php-parser": "^4.15",
+		"phpdocumentor/reflection-docblock": "^5.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"YahnisElsts\\MiniWpHookParser\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Yahnis Elsts",
+			"email": "whiteshadow@w-shadow.com",
+			"role": "Developer"
+		},
+		{
+			"name": "Ryan McCue",
+			"homepage": "https://ryanmccue.info",
+			"role": "Developer"
+		}
+	]
+}
